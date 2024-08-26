@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,700,0..100,0..1;1,9..144,700,0..100,0..1&display=swap"
+    rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .montserrat {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+    }
+
+    .montserrat-text {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .montserrat-text-bold {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+    }
+
+    .fraunces {
+      font-family: "Fraunces", serif;
+      font-size: 700;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: hsl(30, 38%, 92%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="d-flex justify-content-center align-items-center" style="height:100vh;">
+    <div class="card mb-3 border-0 shadow bg-light" style="max-width: 680px;">
+      <div class="row g-0">
+        <div class="col-6">
+          <img src="images/image-product-desktop.jpg" class="img-fluid rounded-start">
+        </div>
+        <div class="col-6 p-3">
+          <div class="card-body">
+            <p class="mb-2 montserrat">P E R F U M E</p>
+            <h1 class="card-title fw-bold mt-4 fraunces">Gabrielle Essence Eau De Parfum</h1>
+            <div class="card-text montserrat-text mt-4 text-secondary">A floral, solar and voluptuous interpretation
+              composed by Olivier Polge,
+              Perfumer-Creator for the House of CHANEL.</div>
+            <div class="d-flex align-items-center mt-4 mb-3">
+              <h1 class="fw-bold text-success mb-0 fraunces">$149.99</h1>
+              <h6 class="text-muted ms-4 mt-2"><del>$169.99</del></h6>
+            </div>
+            <a href=""
+              class="btn btn-success d-flex align-items-center justify-content-center mt-4 montserrat-text-bold shadow"
+              style="height: 52px;">
+              <i class="bi bi-cart me-2" style="font-size: 18px;"></i>Add to Cart
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">yota54123</a>.
+  </div>
+</body>
+
+</html>
